@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Test.Test_for_Myntra">
+        <methods>
+          <include name="logout"/>
+          <include name="TC1"/>
+          <include name="openbrow"/>
+          <include name="openapp"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- Test.Test_for_Myntra -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
